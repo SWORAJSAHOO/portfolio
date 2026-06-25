@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Sworaj Sahoo – Analyst AI/LLM & Generative AI Developer. Building AI-powered applications with LLMs, RAG, Prompt Engineering, and Generative AI." />
+  <meta name="keywords" content="Sworaj Sahoo, AI Developer, LLM Engineer, Generative AI, RAG, Prompt Engineering, LangChain, Python" />
+  <meta name="author" content="Sworaj Sahoo" />
+  <meta property="og:title" content="Sworaj Sahoo | Analyst AI/LLM" />
+  <meta property="og:description" content="Building AI-powered applications with LLMs, RAG, Prompt Engineering, and Generative AI." />
+  <meta property="og:type" content="website" />
+  <title>Sworaj Sahoo | Analyst AI/LLM & Generative AI Developer</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ░░ LOADING SCREEN ░░ -->
+  <div id="loader">
+    <div class="loader-inner">
+      <div class="loader-logo">SS</div>
+      <div class="loader-bar"><div class="loader-fill"></div></div>
+      <p class="loader-text">Initializing AI Stack…</p>
+    </div>
+  </div>
+
+  <!-- ░░ NAV ░░ -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">Sworaj<span>.</span></a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button id="theme-toggle" aria-label="Toggle theme"><i class="fas fa-sun"></i></button>
+        <a href="#contact" class="btn btn-sm">Hire Me</a>
+        <button class="hamburger" id="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+    <!-- mobile drawer -->
+    <div class="mobile-menu" id="mobile-menu">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ░░ HERO ░░ -->
+  <section id="hero">
+    <canvas id="neural-canvas"></canvas>
+    <div class="hero-content">
+      <p class="hero-eyebrow"><span class="dot-pulse"></span> Available for new opportunities</p>
+      <h1 class="hero-name">Sworaj <span class="gradient-text">Sahoo</span></h1>
+      <h2 class="hero-title">
+        <span class="static-text">I build </span>
+        <span class="typed-wrapper"><span id="typed-text"></span><span class="cursor-blink">|</span></span>
+      </h2>
+      <p class="hero-tagline">Building AI-powered applications with LLMs, RAG,<br />Prompt Engineering, and Generative AI.</p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary"><i class="fas fa-rocket"></i> View Projects</a>
+        <a href="#contact" class="btn btn-outline"><i class="fas fa-paper-plane"></i> Get In Touch</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat-item"><span class="stat-num" data-target="2">0</span><span class="stat-label">Years Experience</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat-item"><span class="stat-num" data-target="10">0</span><span class="stat-label">AI Tools Mastered</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat-item"><span class="stat-num" data-target="5">0</span><span class="stat-label">Projects Built</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat-item"><span class="stat-num" data-target="3">0</span><span class="stat-label">Certifications</span></div>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <a href="#about"><span></span></a>
+    </div>
+  </section>
+
+  <!-- ░░ ABOUT ░░ -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-label">// about_me</div>
+      <h2 class="section-title">Who I <span class="gradient-text">Am</span></h2>
+      <div class="about-grid">
+        <div class="about-visual reveal">
+          <div class="avatar-frame">
+            <div class="avatar-initials">SS</div>
+            <div class="avatar-ring ring-1"></div>
+            <div class="avatar-ring ring-2"></div>
+            <div class="avatar-ring ring-3"></div>
+          </div>
+          <div class="social-links">
+            <a href="mailto:sworajsahoo05@gmail.com" class="social-icon" aria-label="Email" title="Email"><i class="fas fa-envelope"></i></a>
+            <a href="tel:+917205235887" class="social-icon" aria-label="Phone" title="Phone"><i class="fas fa-phone"></i></a>
+            <a href="https://linkedin.com/in/sworaj-sahoo-6789a0273" target="_blank" rel="noopener" class="social-icon" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com/" target="_blank" rel="noopener" class="social-icon" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+        <div class="about-text reveal">
+          <p class="about-lead">Results-driven AI professional passionate about pushing the boundaries of what's possible with large language models.</p>
+          <p>Currently working as <strong>Analyst AI/LLM at Innodata</strong>, I design and deploy production-grade RAG pipelines, build AI chatbots, and engineer advanced prompt strategies. My prior experience at <strong>GlobalLogic</strong> grounded me deeply in AI training data operations, multilingual content moderation, and Trust & Safety — giving me a rare end-to-end perspective on the AI development lifecycle.</p>
+          <p>I'm proficient in Python, LangChain, LlamaIndex, OpenAI and Anthropic Claude APIs, and vector databases including Pinecone and ChromaDB.</p>
+          <div class="about-tags">
+            <span class="tag"><i class="fas fa-map-marker-alt"></i> Noida, India</span>
+            <span class="tag"><i class="fas fa-briefcase"></i> Open to Opportunities</span>
+            <span class="tag"><i class="fas fa-graduation-cap"></i> MCA Graduate</span>
+          </div>
+          <a href="#resume" class="btn btn-primary mt-2"><i class="fas fa-file-alt"></i> View Resume</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ EXPERIENCE ░░ -->
+  <section id="experience" class="section section-alt">
+    <div class="container">
+      <div class="section-label">// work_history</div>
+      <h2 class="section-title">Career <span class="gradient-text">Timeline</span></h2>
+      <div class="timeline">
+
+        <!-- Job 1 -->
+        <div class="timeline-item reveal">
+          <div class="timeline-dot active"></div>
+          <div class="timeline-content glass-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="job-title">Analyst AI/LLM</h3>
+                <p class="company"><i class="fas fa-building"></i> Innodata &nbsp;|&nbsp; <i class="fas fa-map-marker-alt"></i> Noida, India</p>
+              </div>
+              <span class="timeline-badge current">Current</span>
+            </div>
+            <p class="timeline-date"><i class="fas fa-calendar"></i> January 2026 – Present</p>
+            <ul class="timeline-bullets">
+              <li>Design and deploy <strong>RAG pipelines</strong> connecting LLMs to private document stores using LangChain and ChromaDB.</li>
+              <li>Engineer advanced prompt templates using <strong>Chain-of-Thought (CoT) and Few-Shot prompting</strong> strategies.</li>
+              <li>Build end-to-end AI chatbot and QA pipelines via <strong>OpenAI API and Anthropic Claude API</strong>.</li>
+              <li>Implement text embedding workflows with <strong>Pinecone</strong> for semantic search and retrieval.</li>
+              <li>Experiment with <strong>LoRA/PEFT fine-tuning</strong> on Llama 2 and Mistral 7B via Hugging Face.</li>
+              <li>Develop interactive demos with <strong>Streamlit and Gradio</strong> for stakeholder presentations.</li>
+              <li>Optimize token usage and context window management to reduce API costs.</li>
+              <li>Implement <strong>AI safety guardrails</strong> and prompt injection defenses for production.</li>
+            </ul>
+            <div class="tech-chips">
+              <span class="chip">LangChain</span><span class="chip">ChromaDB</span><span class="chip">OpenAI API</span>
+              <span class="chip">Claude API</span><span class="chip">Pinecone</span><span class="chip">Streamlit</span>
+              <span class="chip">LoRA/PEFT</span><span class="chip">Python</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Job 2 -->
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content glass-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="job-title">Associate Analyst</h3>
+                <p class="company"><i class="fas fa-building"></i> GlobalLogic &nbsp;|&nbsp; <i class="fas fa-map-marker-alt"></i> Gurugram, India</p>
+              </div>
+            </div>
+            <p class="timeline-date"><i class="fas fa-calendar"></i> November 2024 – December 2025</p>
+            <ul class="timeline-bullets">
+              <li>Performed data annotation and content-labeling for <strong>large-scale AI training datasets</strong>.</li>
+              <li>Annotated multilingual text, image, and video content to support AI model training pipelines.</li>
+              <li>Reviewed and flagged harmful content including hate speech and self-harm indicators per <strong>Trust & Safety policies</strong>.</li>
+              <li>Applied annotation guidelines to ensure accuracy, consistency, and policy alignment.</li>
+              <li>Participated in quality-calibration sessions to improve <strong>inter-annotator agreement</strong>.</li>
+            </ul>
+            <div class="tech-chips">
+              <span class="chip">Data Annotation</span><span class="chip">Content Moderation</span>
+              <span class="chip">Trust & Safety</span><span class="chip">Multilingual</span><span class="chip">QA</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ SKILLS ░░ -->
+  <section id="skills" class="section">
+    <div class="container">
+      <div class="section-label">// technical_skills</div>
+      <h2 class="section-title">Skill <span class="gradient-text">Arsenal</span></h2>
+
+      <div class="skills-grid">
+
+        <div class="skill-card glass-card reveal">
+          <div class="skill-card-icon"><i class="fas fa-brain"></i></div>
+          <h3>Generative AI & LLM</h3>
+          <div class="skill-bars">
+            <div class="skill-bar-item"><span>RAG Pipelines</span><div class="bar"><div class="bar-fill" data-w="90"></div></div></div>
+            <div class="skill-bar-item"><span>Prompt Engineering</span><div class="bar"><div class="bar-fill" data-w="92"></div></div></div>
+            <div class="skill-bar-item"><span>Chain of Thought</span><div class="bar"><div class="bar-fill" data-w="88"></div></div></div>
+            <div class="skill-bar-item"><span>Fine-Tuning / LoRA</span><div class="bar"><div class="bar-fill" data-w="75"></div></div></div>
+            <div class="skill-bar-item"><span>Vector Search</span><div class="bar"><div class="bar-fill" data-w="87"></div></div></div>
+          </div>
+        </div>
+
+        <div class="skill-card glass-card reveal">
+          <div class="skill-card-icon"><i class="fas fa-layer-group"></i></div>
+          <h3>Frameworks & Libraries</h3>
+          <div class="skill-bars">
+            <div class="skill-bar-item"><span>LangChain</span><div class="bar"><div class="bar-fill" data-w="90"></div></div></div>
+            <div class="skill-bar-item"><span>LlamaIndex</span><div class="bar"><div class="bar-fill" data-w="82"></div></div></div>
+            <div class="skill-bar-item"><span>Hugging Face</span><div class="bar"><div class="bar-fill" data-w="80"></div></div></div>
+            <div class="skill-bar-item"><span>FastAPI</span><div class="bar"><div class="bar-fill" data-w="75"></div></div></div>
+            <div class="skill-bar-item"><span>Streamlit / Gradio</span><div class="bar"><div class="bar-fill" data-w="88"></div></div></div>
+          </div>
+        </div>
+
+        <div class="skill-card glass-card reveal">
+          <div class="skill-card-icon"><i class="fas fa-robot"></i></div>
+          <h3>LLM APIs & Models</h3>
+          <div class="skill-tags-grid">
+            <span class="skill-tag"><i class="fas fa-circle-dot"></i> OpenAI GPT-4</span>
+            <span class="skill-tag"><i class="fas fa-circle-dot"></i> GPT-3.5</span>
+            <span class="skill-tag"><i class="fas fa-circle-dot"></i> Anthropic Claude</span>
+            <span class="skill-tag"><i class="fas fa-circle-dot"></i> Google GenAI SDK</span>
+            <span class="skill-tag"><i class="fas fa-circle-dot"></i> Llama 2</span>
+            <span class="skill-tag"><i class="fas fa-circle-dot"></i> Mistral 7B</span>
+          </div>
+        </div>
+
+        <div class="skill-card glass-card reveal">
+          <div class="skill-card-icon"><i class="fas fa-database"></i></div>
+          <h3>Vector Databases</h3>
+          <div class="skill-tags-grid">
+            <span class="skill-tag featured"><i class="fas fa-star"></i> Pinecone</span>
+            <span class="skill-tag featured"><i class="fas fa-star"></i> ChromaDB</span>
+            <span class="skill-tag"><i class="fas fa-circle-dot"></i> Milvus</span>
+          </div>
+        </div>
+
+        <div class="skill-card glass-card reveal">
+          <div class="skill-card-icon"><i class="fas fa-code"></i></div>
+          <h3>Programming Languages</h3>
+          <div class="skill-bars">
+            <div class="skill-bar-item"><span>Python</span><div class="bar"><div class="bar-fill" data-w="93"></div></div></div>
+            <div class="skill-bar-item"><span>SQL</span><div class="bar"><div class="bar-fill" data-w="72"></div></div></div>
+            <div class="skill-bar-item"><span>JavaScript</span><div class="bar"><div class="bar-fill" data-w="65"></div></div></div>
+          </div>
+        </div>
+
+        <div class="skill-card glass-card reveal">
+          <div class="skill-card-icon"><i class="fas fa-tools"></i></div>
+          <h3>Tools & Platforms</h3>
+          <div class="skill-tags-grid">
+            <span class="skill-tag"><i class="fab fa-git-alt"></i> Git / GitHub</span>
+            <span class="skill-tag"><i class="fas fa-book"></i> Jupyter</span>
+            <span class="skill-tag"><i class="fab fa-docker"></i> Docker</span>
+            <span class="skill-tag"><i class="fas fa-chart-line"></i> W&B</span>
+            <span class="skill-tag"><i class="fas fa-code"></i> VS Code</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ AI/LLM EXPERTISE ░░ -->
+  <section id="llm-expertise" class="section section-alt">
+    <div class="container">
+      <div class="section-label">// ai_specializations</div>
+      <h2 class="section-title">AI/LLM <span class="gradient-text">Expertise</span></h2>
+      <div class="expertise-grid">
+
+        <div class="expertise-card glass-card reveal">
+          <div class="expertise-icon"><i class="fas fa-sitemap"></i></div>
+          <h3>RAG Pipelines</h3>
+          <p>End-to-end Retrieval-Augmented Generation systems connecting LLMs to private document stores, reducing hallucinations with verified data.</p>
+        </div>
+
+        <div class="expertise-card glass-card reveal">
+          <div class="expertise-icon"><i class="fas fa-pencil-alt"></i></div>
+          <h3>Prompt Engineering</h3>
+          <p>Advanced prompt strategies including Chain-of-Thought, Few-Shot, and system-level prompt design for accurate, consistent model outputs.</p>
+        </div>
+
+        <div class="expertise-card glass-card reveal">
+          <div class="expertise-icon"><i class="fas fa-comments"></i></div>
+          <h3>AI Chatbots & QA</h3>
+          <p>Production-ready chatbot pipelines with streaming, async handling, structured JSON output parsing using OpenAI and Claude APIs.</p>
+        </div>
+
+        <div class="expertise-card glass-card reveal">
+          <div class="expertise-icon"><i class="fas fa-search"></i></div>
+          <h3>Semantic Search</h3>
+          <p>Text embedding workflows converting documents into high-dimensional vectors stored in Pinecone for efficient semantic retrieval.</p>
+        </div>
+
+        <div class="expertise-card glass-card reveal">
+          <div class="expertise-icon"><i class="fas fa-sliders-h"></i></div>
+          <h3>LLM Fine-Tuning</h3>
+          <p>Parameter-efficient fine-tuning (LoRA/PEFT) on open-source models like Llama 2 and Mistral 7B for domain-specific tasks.</p>
+        </div>
+
+        <div class="expertise-card glass-card reveal">
+          <div class="expertise-icon"><i class="fas fa-shield-alt"></i></div>
+          <h3>AI Safety & Guardrails</h3>
+          <p>System-level guardrails, prompt injection defenses, and policy-compliant model output strategies for production AI environments.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ PROJECTS ░░ -->
+  <section id="projects" class="section">
+    <div class="container">
+      <div class="section-label">// project_showcase</div>
+      <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+
+      <div class="project-filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="ai">AI / ML</button>
+        <button class="filter-btn" data-filter="web">Web</button>
+      </div>
+
+      <div class="projects-grid">
+
+        <div class="project-card glass-card reveal" data-category="ai">
+          <div class="project-header">
+            <div class="project-icon"><i class="fas fa-brain"></i></div>
+            <div class="project-links">
+              <a href="#" class="project-link" aria-label="GitHub"><i class="fab fa-github"></i></a>
+              <a href="#" class="project-link" aria-label="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <h3>Brain Tumour Detection</h3>
+          <p>Medical image classification system leveraging VGG19 transfer learning architecture for brain tumour detection from MRI scans with improved diagnostic accuracy.</p>
+          <div class="project-highlights">
+            <span><i class="fas fa-check"></i> Transfer Learning (VGG19)</span>
+            <span><i class="fas fa-check"></i> MRI image processing</span>
+            <span><i class="fas fa-check"></i> Data augmentation</span>
+            <span><i class="fas fa-check"></i> Hyperparameter tuning</span>
+          </div>
+          <div class="tech-chips">
+            <span class="chip">TensorFlow</span><span class="chip">VGG19</span><span class="chip">Deep Learning</span><span class="chip">Python</span>
+          </div>
+        </div>
+
+        <div class="project-card glass-card reveal" data-category="web">
+          <div class="project-header">
+            <div class="project-icon"><i class="fas fa-cloud-sun"></i></div>
+            <div class="project-links">
+              <a href="#" class="project-link" aria-label="GitHub"><i class="fab fa-github"></i></a>
+              <a href="#" class="project-link" aria-label="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <h3>Weather Forecast Application</h3>
+          <p>Full-stack weather forecasting app integrating multiple external weather APIs, with location-based lookup, multi-day forecasting, and historical weather trend analysis.</p>
+          <div class="project-highlights">
+            <span><i class="fas fa-check"></i> Real-time forecasting</span>
+            <span><i class="fas fa-check"></i> Location-based lookup</span>
+            <span><i class="fas fa-check"></i> Historical trends</span>
+            <span><i class="fas fa-check"></i> REST API integration</span>
+          </div>
+          <div class="tech-chips">
+            <span class="chip">Python</span><span class="chip">Django</span><span class="chip">REST APIs</span><span class="chip">SQL</span>
+          </div>
+        </div>
+
+        <div class="project-card glass-card reveal" data-category="ai">
+          <div class="project-header">
+            <div class="project-icon"><i class="fas fa-robot"></i></div>
+            <div class="project-links">
+              <a href="#" class="project-link" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <h3>RAG Chatbot Pipeline</h3>
+          <p>Production-grade RAG pipeline connecting LLMs to private document stores using LangChain and ChromaDB, with semantic search and hallucination reduction.</p>
+          <div class="project-highlights">
+            <span><i class="fas fa-check"></i> Document Q&A</span>
+            <span><i class="fas fa-check"></i> Semantic chunking</span>
+            <span><i class="fas fa-check"></i> Streamlit UI</span>
+            <span><i class="fas fa-check"></i> Prompt guardrails</span>
+          </div>
+          <div class="tech-chips">
+            <span class="chip">LangChain</span><span class="chip">ChromaDB</span><span class="chip">OpenAI</span><span class="chip">Streamlit</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ EDUCATION ░░ -->
+  <section id="education" class="section section-alt">
+    <div class="container">
+      <div class="section-label">// education</div>
+      <h2 class="section-title">Academic <span class="gradient-text">Background</span></h2>
+      <div class="edu-timeline">
+
+        <div class="edu-item reveal">
+          <div class="edu-icon"><i class="fas fa-graduation-cap"></i></div>
+          <div class="edu-content glass-card">
+            <div class="edu-degree">Master of Computer Applications (MCA)</div>
+            <div class="edu-school">K.R. Mangalam University, Gurugram</div>
+            <div class="edu-year">2022 – 2024</div>
+          </div>
+        </div>
+
+        <div class="edu-item reveal">
+          <div class="edu-icon"><i class="fas fa-university"></i></div>
+          <div class="edu-content glass-card">
+            <div class="edu-degree">Bachelor of Science (BSc)</div>
+            <div class="edu-school">Utkal University, Bhubaneswar</div>
+            <div class="edu-year">2019 – 2022</div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Certifications -->
+      <div class="section-label mt-4">// certifications</div>
+      <h2 class="section-title">Certifications &amp; <span class="gradient-text">Training</span></h2>
+      <div class="cert-grid">
+
+        <div class="cert-card glass-card reveal">
+          <div class="cert-icon"><i class="fab fa-github"></i></div>
+          <div class="cert-info">
+            <h4>GitHub Foundations Certification</h4>
+            <p>GitHub</p>
+            <span class="cert-date">March 2025 – March 2028</span>
+          </div>
+          <div class="cert-badge"><i class="fas fa-certificate"></i></div>
+        </div>
+
+        <div class="cert-card glass-card reveal">
+          <div class="cert-icon"><i class="fab fa-python"></i></div>
+          <div class="cert-info">
+            <h4>Python Full Stack Training</h4>
+            <p>Aptron Solutions</p>
+            <span class="cert-date">Completed</span>
+          </div>
+          <div class="cert-badge"><i class="fas fa-certificate"></i></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ RESUME ░░ -->
+  <section id="resume" class="section">
+    <div class="container">
+      <div class="section-label">// resume</div>
+      <h2 class="section-title">My <span class="gradient-text">Resume</span></h2>
+      <p class="section-sub">View or download my full resume below.</p>
+
+      <div class="resume-actions">
+        <button class="btn btn-primary" id="view-resume-btn"><i class="fas fa-eye"></i> View Resume</button>
+        <a href="assets/Sworaj_Sahoo_GenAI_Resume.pdf" download="Sworaj_Sahoo_Resume.pdf" class="btn btn-outline"><i class="fas fa-download"></i> Download PDF</a>
+        <button class="btn btn-ghost" id="fullscreen-btn"><i class="fas fa-expand"></i> Fullscreen</button>
+      </div>
+
+      <div class="resume-viewer glass-card" id="resume-viewer">
+        <div class="resume-toolbar">
+          <span><i class="fas fa-file-pdf"></i> Sworaj_Sahoo_GenAI_Resume.pdf</span>
+          <div class="resume-toolbar-actions">
+            <button id="fs-btn-inner" title="Fullscreen"><i class="fas fa-expand"></i></button>
+            <a href="assets/Sworaj_Sahoo_GenAI_Resume.pdf" download title="Download"><i class="fas fa-download"></i></a>
+          </div>
+        </div>
+        <div class="pdf-container">
+          <iframe
+            id="resume-iframe"
+            src="assets/Sworaj_Sahoo_GenAI_Resume.pdf#toolbar=0&navpanes=0&scrollbar=0"
+            title="Sworaj Sahoo Resume"
+            loading="lazy">
+          </iframe>
+          <div class="pdf-fallback" id="pdf-fallback">
+            <i class="fas fa-file-pdf"></i>
+            <p>PDF preview not available in your browser.</p>
+            <a href="assets/Sworaj_Sahoo_GenAI_Resume.pdf" download class="btn btn-primary">Download Resume</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ CONTACT ░░ -->
+  <section id="contact" class="section section-alt">
+    <div class="container">
+      <div class="section-label">// get_in_touch</div>
+      <h2 class="section-title">Let's <span class="gradient-text">Connect</span></h2>
+      <p class="section-sub">Have a project in mind or want to collaborate? Reach out!</p>
+
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <div class="contact-item glass-card">
+            <div class="ci-icon"><i class="fas fa-envelope"></i></div>
+            <div class="ci-text">
+              <span class="ci-label">Email</span>
+              <a href="mailto:sworajsahoo05@gmail.com">sworajsahoo05@gmail.com</a>
+            </div>
+          </div>
+          <div class="contact-item glass-card">
+            <div class="ci-icon"><i class="fas fa-phone"></i></div>
+            <div class="ci-text">
+              <span class="ci-label">Phone</span>
+              <a href="tel:+917205235887">+91 7205235887</a>
+            </div>
+          </div>
+          <div class="contact-item glass-card">
+            <div class="ci-icon"><i class="fab fa-linkedin-in"></i></div>
+            <div class="ci-text">
+              <span class="ci-label">LinkedIn</span>
+              <a href="https://linkedin.com/in/sworaj-sahoo-6789a0273" target="_blank" rel="noopener">sworaj-sahoo-6789a0273</a>
+            </div>
+          </div>
+          <div class="contact-item glass-card">
+            <div class="ci-icon"><i class="fab fa-github"></i></div>
+            <div class="ci-text">
+              <span class="ci-label">GitHub</span>
+              <a href="https://github.com/" target="_blank" rel="noopener">github.com/sworajsahoo</a>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact-form glass-card reveal" id="contact-form" novalidate>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" autocomplete="off" />
+            <span class="form-error" id="name-error"></span>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="your@email.com" autocomplete="off" />
+            <span class="form-error" id="email-error"></span>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="What's this about?" />
+            <span class="form-error" id="subject-error"></span>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell me about your project…"></textarea>
+            <span class="form-error" id="message-error"></span>
+          </div>
+          <button type="submit" class="btn btn-primary w-full"><i class="fas fa-paper-plane"></i> Send Message</button>
+          <div class="form-success" id="form-success" style="display:none;">
+            <i class="fas fa-check-circle"></i> Message sent! I'll get back to you soon.
+          </div>
+          <div class="form-send-error" id="form-send-error" style="display:none;"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ FOOTER ░░ -->
+  <footer id="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <a href="#hero" class="footer-logo">Sworaj<span>.</span></a>
+        <p class="footer-copy">Designed &amp; built by Sworaj Sahoo &copy; <span id="footer-year"></span></p>
+        <div class="footer-socials">
+          <a href="mailto:sworajsahoo05@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+          <a href="https://linkedin.com/in/sworaj-sahoo-6789a0273" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://github.com/" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ░░ BACK TO TOP ░░ -->
+  <button id="back-to-top" aria-label="Back to top"><i class="fas fa-chevron-up"></i></button>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+</body>
+</html>
