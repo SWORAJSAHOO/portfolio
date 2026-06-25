@@ -1,6 +1,3 @@
-/* ══════════════════════════════════════════════
-   SWORAJ SAHOO PORTFOLIO – script.js
-   ══════════════════════════════════════════════ */
 
 /* ── 1. LOADER ─────────────────────────────── */
 window.addEventListener('load', () => {
@@ -339,16 +336,7 @@ function initSkillBars() {
 })();
 
 
-/* ── 11. CONTACT FORM (Formspree) ────────────────
- *
- *  HOW TO ACTIVATE IN 2 MINUTES (FREE):
- *  1. Go to https://formspree.io/register  →  create a free account
- *  2. Click "New Form" → name it "Portfolio Contact"
- *  3. Copy your unique endpoint, e.g.  https://formspree.io/f/xyzabcde
- *  4. Paste it into FORMSPREE_URL below (replace the placeholder)
- *  5. Save & re-upload script.js — done! Every submission emails sworajsahoo05@gmail.com
- *
- * ─────────────────────────────────────────────── */
+/* ─────────────────────────────────────────────── */
 (function initContactForm() {
   const FORMSPREE_URL = 'https://formspree.io/f/xwvdvgev'; // ← paste your ID here
 
